@@ -7,7 +7,7 @@
 }
 
 html {
-	font: normal 16px sans-serif;
+	font: normal 16px "Product sans";
 	color: #555;
 }
 
@@ -104,7 +104,7 @@ header {
 }
 
 header h2 {
-	font-family: "Quicksand", sans-serif;
+	font-family: "Product sans", sans-serif;
 }
 
 header nav {
