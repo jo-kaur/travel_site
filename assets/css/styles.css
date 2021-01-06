@@ -31,7 +31,7 @@ a.btn {
 	text-transform: uppercase;
 	font-weight: bold;
 	text-align: center;
-	background-color: #3f51b5;
+	background-color: #f6bd60;
 	opacity: 1;
 }
 
@@ -93,7 +93,7 @@ header {
 	padding: 35px 100px 0;
 	animation: 1s fadein 0.5s forwards;
 	opacity: 0;
-	color: #fff;
+	color: rgb(241, 238, 11);
 }
 
 @keyframes fadein {
@@ -133,7 +133,7 @@ header nav li {
 	justify-content: center;
 	text-align: center;
 	min-height: 100vh;
-	color: #fff;
+	color:rgb(255, 255, 255);
 }
 
 .hero .background-image {
@@ -145,16 +145,19 @@ header nav li {
 	background-size: cover;
 	z-index: -1;
 	background-color: #80a3db;
+	opacity: .90;
 }
 
 .hero h1 {
 	font: bold 60px "Open Sans", sans-serif;
 	margin-bottom: 15px;
+	text-shadow: 2px 2px rgb(36, 33, 33);
 }
 
 .hero h3 {
 	font: normal 28px "Open Sans", sans-serif;
 	margin-bottom: 40px;
+	text-shadow: 2px 2px rgb(36, 33, 33);
 }
 
 .hero a.btn {
@@ -162,7 +165,7 @@ header nav li {
 }
 
 .hero-content-area {
-	opacity: 0;
+	opacity: .5;
 	margin-top: 100px;
 	animation: 1s slidefade 1s forwards;
 }
@@ -233,7 +236,7 @@ header nav li {
 }
 
 .packages .grid li i {
-	color: #8c9eff;
+	color: #ffa38c;
 }
 
 .packages .grid li h4 {
