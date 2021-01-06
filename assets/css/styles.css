@@ -7,7 +7,7 @@
 }
 
 html {
-	font: normal 16px sans-serif;
+	font: normal 16px "Product sans";
 	color: #555;
 }
 
@@ -84,6 +84,11 @@ section p {
 }
 
 /*Header Styles*/
+/* trying to change the cursor when hovering over */
+h2 nav li a:hover{
+	cursor:grab;
+}
+
 
 header {
 	position: absolute;
@@ -104,7 +109,7 @@ header {
 }
 
 header h2 {
-	font-family: "Quicksand", sans-serif;
+	font-family: "Product sans", sans-serif;
 }
 
 header nav {
@@ -114,6 +119,7 @@ header nav {
 
 header nav li {
 	margin: 0 15px;
+
 }
 
 @media (max-width: 800px) {
@@ -307,8 +313,8 @@ footer {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	background-color: #607d8b;
-	color: #fff;
+	background-color: #84A59D;
+	color: black;
 	padding: 20px 0;
 }
 
