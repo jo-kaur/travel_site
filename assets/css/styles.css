@@ -84,6 +84,11 @@ section p {
 }
 
 /*Header Styles*/
+/* trying to change the cursor when hovering over */
+h2 nav li a:hover{
+	cursor:grab;
+}
+
 
 header {
 	position: absolute;
