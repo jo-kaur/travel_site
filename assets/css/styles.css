@@ -114,6 +114,7 @@ header nav {
 
 header nav li {
 	margin: 0 15px;
+
 }
 
 @media (max-width: 800px) {
@@ -307,8 +308,8 @@ footer {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	background-color: #607d8b;
-	color: #fff;
+	background-color: #84A59D;
+	color: black;
 	padding: 20px 0;
 }
 
