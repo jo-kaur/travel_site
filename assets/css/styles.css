@@ -19,7 +19,7 @@ nav {
 a {
 	text-decoration: none;
 	opacity: 0.75;
-	color: #fff;
+	color: rgb(255, 255, 255);
 }
 
 a:hover {
@@ -32,7 +32,7 @@ a.btn {
 	text-transform: uppercase;
 	font-weight: bold;
 	text-align: center;
-	background-color: #f6bd60;
+	background-color: #f5b145;
 	opacity: 1;
 }
 
@@ -57,7 +57,7 @@ section:not(.hero):nth-child(even) {
 hr {
 	width: 250px;
 	height: 3px;
-	background-color: #f6bd60;
+	background-color: #f5b145;
 	border: 0;
 	margin-bottom: 50px;
 }
@@ -86,7 +86,7 @@ section p {
 /*Header Styles*/
 /* trying to change the cursor when hovering over */
 h2 nav li a:hover{
-	cursor:grab;
+	color: rgb(255, 217, 0);
 }
 
 
@@ -152,7 +152,7 @@ header nav li {
 	background-size: cover;
 	z-index: -1;
 	background-color: #80a3db;
-	opacity: .75;
+	opacity: .90;
 }
 
 .hero h1 {
@@ -243,7 +243,7 @@ header nav li {
 }
 
 .packages .grid li i {
-	color: #f6bd60;
+	color: #f5b145;
 }
 
 .packages .grid li h4 {
