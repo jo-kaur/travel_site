@@ -1,2 +1,2 @@
-# jjttp
-Class Materials for TTP.
+# Travel Website group project
+Created a travel webpage related to food
